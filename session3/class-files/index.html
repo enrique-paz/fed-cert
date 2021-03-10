@@ -4,6 +4,54 @@
 <meta charset="utf-8">
 	<title>Web Development</title>
 
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+
+	html {
+		background-color:gray;
+	}
+	body {
+		background-color:white;
+		font-family:sans-serif;
+	}
+	header {
+		background-color:orange;
+	}
+div {
+	background-color:green;
+}
+section {
+	background-color:blue;
+	color:white;
+}
+main {
+	background-color:white;
+}
+footer {
+	background-color:brown;
+}
+h1 {
+	color:orange;
+	font-weight:normal;
+}
+nav a {
+	color:white;
+	text-decoration:none;
+}
+main p {
+	color:green;
+	font-size:20px;
+}
+.redtype {
+	color:red;
+}
+#banner {
+	height:300px;
+	background-image:url(images/wireframe.jpg);
+}
+	</style>
+
 </head>
 
 <body>
@@ -20,14 +68,15 @@
 		</nav>
 	</header>
 
-	<div>
+	<div id="banner">
 
+		image
 
 	</div>
 
-	<section>
+	<section id="wireframe">
 
-		<h1>Web Design</h1>
+		<h1 style="color:green;">Web Design</h1>
 		<button type="button">Learn more</button>
 
 	</section>
@@ -38,18 +87,21 @@
 
 		<img src="images/html5.png" alt="HTML5">
 		<h4>HTML5</h4>
-		<p>HTML5 is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications. This set is sometimes called HTML5 & friends and often shortened to just HTML5.</p>
+		<hr>
+		<p class="redtype"><a href="">HTML5</a> is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications. This set is sometimes called HTML5 & friends and often shortened to just HTML5.</p>
 
 		<p>Designed to be usable by all Open Web developers, this reference page links to numerous resources about HTML5 technologies, classified into several groups based on their function.</p>
 
 		<img src="images/css3.png" alt="CSS3">
 		<h4>CSS3</h4>
+		<hr>
 		<p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
 
 		<p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version.</p>
 
 		<img src="images/javascript.png" alt="Javascript">
 		<h4>Javascript</h4>
+		<hr>
 		<p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.</p>
 
 		<p>This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about API specifics to Web pages, please see Web APIs and DOM.</p>
@@ -57,6 +109,7 @@
 </main>
 
 	<section>
+		<img src="images/wireframe.jpg" alt="Wireframe">
 		<h2>Front-end Development</h2>
 		<p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
 
